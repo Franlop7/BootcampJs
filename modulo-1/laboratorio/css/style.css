@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.avatar {
+    width: 30%;
+}
+
+.data,
+.button {
+    padding: 8px;
+}
+
+.name,
+.lastname {
+    width: 100%;
+    margin: 8px 0 32px 0;
+    padding: 12px 24px;
+    border: 1px solid #dcdcdc;
+}
+
+.button {
+    background-color: coral;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
