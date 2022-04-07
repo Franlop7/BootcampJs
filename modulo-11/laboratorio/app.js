@@ -103,7 +103,7 @@ class ClienteParticular extends ReservaHotel {
   }
 
   calcularPersonasExtras(habitacion) {
-    const personasExtras = 50;
+    const personasExtras = 40;
     return habitacion.pax > 1 ? (habitacion.pax - 1) * personasExtras : 0;
   }
 
