@@ -1,11 +1,3 @@
-import { getEquipmentsList } from './property-detail.api';
-
-let equipments = [];
-
-getEquipmentsList().then((data) => {
-  equipments = data.map((item) => item.name);
-});
-
 export const mapPropertyDetailFromApiToVM = (property, equipmentsList) => {
   return {
     id: property.id,
