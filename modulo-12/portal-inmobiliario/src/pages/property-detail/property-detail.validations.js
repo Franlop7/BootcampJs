@@ -9,7 +9,7 @@ const validationSchema = {
       },
       {
         validator: Validators.email,
-        message: 'Email no válido',
+        message: 'Introduce un email válido',
       },
     ],
     message: [
