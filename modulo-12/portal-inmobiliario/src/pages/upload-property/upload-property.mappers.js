@@ -15,7 +15,7 @@ export const mapPostPropertyFromToVM = (property) => {
     bathrooms: Number(property.bathrooms),
     locationUrl: property.locationUrl,
     mainFeatures: property.newFeature,
-    equipmentIds: property.equipmentIds,
+    equipmentIds: property.equipmentsIds,
     images: property.images,
   };
 };
