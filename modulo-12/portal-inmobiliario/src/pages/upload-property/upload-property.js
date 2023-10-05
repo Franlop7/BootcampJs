@@ -47,7 +47,7 @@ Promise.all([getEquipmentsList(), getSaleTypeList(), getProvinceList()]).then(
     setCheckboxList(equipmentsList, 'equipments');
     setEvents(equipmentsList, newProperty.equipmentsIds);
     setCheckboxList(saleTypeList, 'saleTypes');
-    setEvents(saleTypeList, 'saleTypes');
+    setEvents(saleTypeList, newProperty.saleTypes);
     setOptionList(provincesList, 'province');
   }
 );
